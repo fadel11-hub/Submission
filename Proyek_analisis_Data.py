@@ -52,7 +52,7 @@ max_date = days_data['dteday'].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("https://cdn.pixabay.com/photo/2020/09/09/13/03/bike-riding-5557589_1280.png")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
